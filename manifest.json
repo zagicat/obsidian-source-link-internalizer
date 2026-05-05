@@ -1,0 +1,9 @@
+{
+  "id": "source-link-internalizer",
+  "name": "Source Link Internalizer",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Replace external links with wikilinks when the destination matches a source URL in your vault.",
+  "author": "Keith Willsey",
+  "isDesktopOnly": false
+}

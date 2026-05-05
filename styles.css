@@ -1,0 +1,89 @@
+.source-link-internalizer-modal {
+  max-width: 800px;
+}
+
+.source-link-internalizer-modal .sli-summary {
+  color: var(--text-muted);
+  margin-bottom: 1em;
+}
+
+.source-link-internalizer-modal .sli-changes-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1em;
+  padding-right: 0.5em;
+}
+
+.source-link-internalizer-modal .sli-file-section {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.source-link-internalizer-modal .sli-file-section:last-child {
+  border-bottom: none;
+}
+
+.source-link-internalizer-modal .sli-file-section h4 {
+  margin: 0 0 0.5em 0;
+  color: var(--text-accent);
+  font-size: 0.9em;
+}
+
+.source-link-internalizer-modal .sli-change-item {
+  background: var(--background-secondary);
+  padding: 0.75em;
+  border-radius: 4px;
+  margin-bottom: 0.5em;
+}
+
+.source-link-internalizer-modal .sli-label {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.source-link-internalizer-modal .sli-before,
+.source-link-internalizer-modal .sli-after,
+.source-link-internalizer-modal .sli-target {
+  margin-bottom: 0.25em;
+}
+
+.source-link-internalizer-modal .sli-before code {
+  color: var(--text-error);
+}
+
+.source-link-internalizer-modal .sli-after code {
+  color: var(--text-success);
+}
+
+.source-link-internalizer-modal .sli-target {
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.source-link-internalizer-modal .sli-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.source-link-internalizer-modal .sli-results-list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin: 0.5em 0 1em 0;
+  padding-left: 1.5em;
+}
+
+.source-link-internalizer-modal .sli-results-list li {
+  margin-bottom: 0.25em;
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+}
+
+.source-link-internalizer-modal .sli-error-header {
+  color: var(--text-error);
+}
+
+.source-link-internalizer-modal .sli-error-list li {
+  color: var(--text-error);
+}
