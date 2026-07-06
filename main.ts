@@ -89,7 +89,11 @@ export default class SourceLinkInternalizerPlugin extends Plugin {
         if (targetFile && targetFile.path !== file.path) {
           // Get filename without extension for wikilink
           const targetName = targetFile.basename;
-          const replacement = `[[${targetName}|${linkText}]]`;
+          // Only include display text when it differs from the document name
+          const replacement =
+            linkText === targetName
+              ? `[[${targetName}]]`
+              : `[[${targetName}|${linkText}]]`;
 
           changes.push({
             file,
